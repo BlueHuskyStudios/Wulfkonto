@@ -23,14 +23,15 @@
  */
 package org.lobobrowser.util.gui;
 
-import java.util.*;
-import java.awt.*;
+import java.awt.Font;
+import java.awt.GraphicsEnvironment;
 import java.awt.font.TextAttribute;
-import java.util.logging.*;
-
+import java.util.*;
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import org.lobobrowser.util.Objects;
-/** Note: Undocumented class? */
 import sun.font.FontManager;
+import sun.font.SunFontManager;
 
 /**
  * @author J. H. S.
@@ -207,7 +208,8 @@ public class FontFactory {
 	
 	private Font createFont(String name, int style, int size) {
 		// Proprietary Sun API. Maybe shouldn't use it. Works well for Chinese.
-	    return FontManager.getCompositeFontUIResource(new Font(name, style, size));
+            //return SunFontManager.getInstance().getCompositeFontUIResource(new Font(name, style, size)); yeah they shouldn't've used it.
+            return new Font(name, style, size);
 	}
 	
 	private static class FontKey {
