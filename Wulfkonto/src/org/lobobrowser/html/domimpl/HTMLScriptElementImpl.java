@@ -23,15 +23,16 @@
  */
 package org.lobobrowser.html.domimpl;
 
+import java.security.AccessController;
+import java.security.PrivilegedAction;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import org.lobobrowser.html.HttpRequest;
+import org.lobobrowser.html.UserAgentContext;
+import org.lobobrowser.html.js.Executor;
 import org.w3c.dom.Document;
 import org.w3c.dom.UserDataHandler;
 import org.w3c.dom.html2.HTMLScriptElement;
-import org.lobobrowser.html.*;
-import org.lobobrowser.html.js.Executor;
-
-import java.security.AccessController;
-import java.security.PrivilegedAction;
-import java.util.logging.*;
 import sun.org.mozilla.javascript.internal.Context;
 import sun.org.mozilla.javascript.internal.EcmaError;
 import sun.org.mozilla.javascript.internal.Scriptable;

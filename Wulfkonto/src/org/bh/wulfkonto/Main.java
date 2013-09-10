@@ -3,7 +3,6 @@ package org.bh.wulfkonto;
 import bht.tools.misc.Argument;
 import bht.tools.misc.Parameter;
 import java.io.Console;
-import org.bh.wulfkonto.gui.GUI;
 import org.bh.wulfkonto.gui.GUIWindow;
 
 
