@@ -1,5 +1,6 @@
 //this is a comment I am making..
 //I have made a comment.
+// conflict!
 
 package org.bh.wulfkonto;
 
