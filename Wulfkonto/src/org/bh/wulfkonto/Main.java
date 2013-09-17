@@ -1,3 +1,6 @@
+//this is a comment I am making..
+//I have made a comment.
+
 package org.bh.wulfkonto;
 
 import bht.tools.misc.Argument;
