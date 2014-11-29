@@ -1,3 +1,0 @@
-This software package uses the Lobo browser for rendering. This had to be modified to work with Java 7, but has mostly been kept in-tact. The Lobo browser library was used as provided by its license, GNU LESSER GENERAL PUBLIC LICENSE 2.1.
-
-The rest of this software was created by members of the Blue Husky team and is not intended to improperly use any other intellectual property. If you believe your intellectual property has been used, contact Blue Husky Studios immediately.
