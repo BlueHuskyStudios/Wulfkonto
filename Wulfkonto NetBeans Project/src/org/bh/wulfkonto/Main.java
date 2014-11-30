@@ -48,7 +48,7 @@ public class Main
 	{
 		public NoGUIArgument()
 		{
-			super("--nogui", null);
+			super("nogui", null);
 		}
 		
 		public boolean provided = false;
