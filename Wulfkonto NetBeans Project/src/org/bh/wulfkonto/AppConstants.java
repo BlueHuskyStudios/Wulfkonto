@@ -1,7 +1,8 @@
 package org.bh.wulfkonto;
 
-import bht.tools.util.upd.Version;
-import bht.tools.util.upd.Version.Channel;
+import bht.tools.net.UserAgent;
+import bht.tools.net.upd.Version;
+import bht.tools.net.upd.Version.Channel;
 
 /**
  * AppConstants, made for Wulfkonto NetBeans Project, is copyright Blue Husky Programming ©2014 GPLv3 <hr/>
@@ -15,4 +16,5 @@ public interface AppConstants
 {
 	public static final String APP_NAME = "Wulfkonto";
 	public static final Version APP_VERSION = new Version(0,0,0).setChannel(Channel.LAMBDA);
+	public static final UserAgent USER_AGENT = new UserAgent(APP_NAME, APP_VERSION);
 }
