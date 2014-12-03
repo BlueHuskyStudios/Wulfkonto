@@ -6,6 +6,8 @@ package org.bh.wulfkonto;
 
 import bht.tools.misc.Argument;
 import bht.tools.misc.Parameter;
+import bht.tools.util.ArrayPP;
+import static bht.tools.util.Do.A;
 import java.io.Console;
 import org.bh.wulfkonto.gui.GUIWindow;
 
@@ -31,6 +33,8 @@ public class Main
 	 */
 	public static void main(String[] args)
 	{
+		parseArgs(args);
+		
 		if (NO_GUI_ARG.isProvided()) // Start TUI
 		{
 			Console c = System.console();
@@ -42,6 +46,16 @@ public class Main
 			GUIWindow gui = new GUIWindow();
 			gui.setVisible(true);
 		}
+	}
+
+	private static void parseArgs(String[] args)
+	{
+		ArrayPP<String> argsPP = A(args);
+		for (String string : argsPP)
+		{
+			if (NO_GUI_ARG.)
+		}
+		NO_GUI_ARG.provided = true;
 	}
 	
 	public static class NoGUIArgument extends Argument
@@ -59,6 +73,7 @@ public class Main
 			return this;
 		}
 
+		@Override
 		public boolean isProvided()
 		{
 			return provided;
