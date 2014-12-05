@@ -40,7 +40,16 @@ transformation of the story.
 
 2: STORY GENERATION
 ================================================================================
-    To be described.
+Step 1: have a dictionary of words and their parts of speech, as well as
+    several synonyms.
+Step 2: Have a set of characters with several mental and physical traits
+Step 3: Have a scenario to start with, and one to end with
+Step 4: Knowing the characters, conceptualize a set of steps through which two
+    or more characters in the first scenario might arrive to the next
+Step 5: Create rudimentary sentences like "Kyli move to Lynn."
+Step 6: Replace any replaceable words with somewhat random ones from the
+    dictionary that mean the same thing, like "Kyli sprinted toward her love."
+Step 7: concatenate all these sentences together :D
 
 
 
